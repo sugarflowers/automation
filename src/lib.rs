@@ -34,7 +34,7 @@ pub fn active(hwnd: HWND) {
 
 pub fn get_active() -> HWND {
     unsafe {
-        return GetForegroundWindow();:w
+        return GetForegroundWindow();
         
     }
 }
